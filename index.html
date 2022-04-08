@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-item">
+            <label for="user-name">Nome e Cognome</label>
+            <input type="text" name="user-name" id="user-name">
+        </div>
+
+        <div class="form-item m-top">
+            <label for="km-user">Chilometri da percorrere</label>
+            <input type="text" name="km-user" id="km-user">
+        </div>
+
+        <div class="form-item">
+            <label for="user-age">Fascia d'età</label>
+            <select name="user-color" id="user-color">
+                <option value=""></option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="over65">Over65</option>
+            </select>
+        </div>
+
+        <button class="m-top" id="form-btn">Genera</button>
+        <button class="m-top" id="form-clear-btn">Annulla</button>
+    </div>
+
+    <div class="result m-top d-none">
+        <h2>IL TUO BIGLIETTO</h2>
+        <p>Dettaglio Passeggeri</p>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
