@@ -10,34 +10,32 @@
 <body>
 
     <div class="container">
-        <div class="form-item">
-            <label for="user-name">Nome e Cognome</label>
-            <input type="text" name="user-name" id="user-name">
-        </div>
 
-        <div class="form-item m-top">
-            <label for="km-user">Chilometri da percorrere</label>
-            <input type="text" name="km-user" id="km-user">
-        </div>
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div id="user-data">
+            <div class="top">
+                <div class="user-name">
+                    <label for="user-name">Nome Cognome</label>
+                    <br><br>
+                    <input type="text" id="user-name" name="user-name">
+                </div>
 
-        <div class="form-item">
-            <label for="user-age">Fascia d'età</label>
-            <select name="user-color" id="user-color">
-                <option value=""></option>
-                <option value="maggiorenne">Maggiorenne</option>
-                <option value="over65">Over65</option>
-            </select>
-        </div>
+                <div class="user-km">
+                    <label for="kms">Km da percorrere</label>
+                    <br><br>
+                    <input type="text" id="kms" name="kms">
+                </div>
 
-        <button class="m-top" id="form-btn">Genera</button>
-        <button class="m-top" id="form-clear-btn">Annulla</button>
-    </div>
-
-    <div class="result m-top d-none">
-        <h2>IL TUO BIGLIETTO</h2>
-        <p>Dettaglio Passeggeri</p>
-    </div>
-    
+                <div class="age">
+                    <label for="user-age">Fascia d'età</label>
+                    <br><br>
+                    <select name="user-age" id="user-age">
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="minorenne">Minorenne</option>
+                    <option value="over65">Over 65</option>
+                    </select>
+                </div>
+            </div>
 
     <script src="js/script.js"></script>
     
